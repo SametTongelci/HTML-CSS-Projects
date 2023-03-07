@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="Home/Form">
+            <div class="row">
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" placeholder="First name">
+            </div>
+
+            <div class="row">
+                <label for="lastname">Lastname</label>
+                <input type="text" name="lastname" placeholder="Last name">
+            </div>
+
+            <div class="row">
+                <label for="country">Country</label>
+                <select name="country">
+                    <option value="tr">Türkiye</option>
+                    <option value="en">İngiltere</option>
+                    <option value="fr">Fransa</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label>Subject</label>
+                <textarea name="subject" placeholder="Bir şeyler yazmak için..."></textarea>
+                <input type="submit" value="Kaydet"></input>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

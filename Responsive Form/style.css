@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    background-color: gainsboro;
+    border-radius: 10px;
+}
+
+.row label {
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+}
+
+.row input,
+.row textarea,
+.row select {
+  float: left;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 75%;
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 7px;
+  resize: vertical;
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    float: right;
+    cursor: pointer;
+    border-radius: 5px;
+    width: auto !important;
+}
+
+input[type=submit]:hover {
+    background-color: greenyellow;
+}
+
+textarea {
+  height: 150px;
+  resize: horizontal;
+}

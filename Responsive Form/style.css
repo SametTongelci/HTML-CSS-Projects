@@ -3,9 +3,9 @@
 }
 
 .container {
-    padding: 20px;
-    background-color: gainsboro;
-    border-radius: 10px;
+  padding: 20px;
+  background-color: gainsboro;
+  border-radius: 10px;
 }
 
 .row label {
@@ -28,7 +28,7 @@
   clear: both;
 }
 
-input[type=text],
+input[type="text"],
 select,
 textarea {
   width: 75%;
@@ -38,22 +38,34 @@ textarea {
   resize: vertical;
 }
 
-input[type=submit] {
-    background-color: green;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    float: right;
-    cursor: pointer;
-    border-radius: 5px;
-    width: auto !important;
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  float: right;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
 }
 
-input[type=submit]:hover {
-    background-color: greenyellow;
+input[type="submit"]:hover {
+  background-color: greenyellow;
 }
 
 textarea {
   height: 150px;
   resize: horizontal;
+}
+
+/* Responsive CSS Codes for 768px */
+
+@media screen and (max-width: 768px) {
+  .row label,
+  .row textarea,
+  .row select,
+  .row input {
+    display: block;
+    width: 100%;
+  }
 }

@@ -53,3 +53,25 @@ aside {
   padding-left: 20px;
 }
 
+/* footer css */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  padding: 17px;
+  background-color: rgb(224, 221, 221);
+  margin-top: 18px;
+}
+
+/* CSS Media Queries codes*/
+
+@media screen and (max-width: 900px) {
+  section,
+  aside {
+    width: 100%;
+  }
+}

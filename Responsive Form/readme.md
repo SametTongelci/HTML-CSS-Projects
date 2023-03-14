@@ -1,4 +1,7 @@
 # Responsive Form Project using HTML and CSS
+![responsive form page](https://user-images.githubusercontent.com/106675349/225038494-783aebcc-7d70-4641-89cf-41922ca97268.png)
+
+![responsive form 768px](https://user-images.githubusercontent.com/106675349/225038816-24104f0b-1efc-44b3-9813-9f3f407cf44d.png)
 
 
 <div id="contact">

@@ -28,3 +28,18 @@ body {
   margin-top: 7px;
   vertical-align: middle;
 }
+
+/* Responsive css codes for 900px and 600px */
+@media screen and (max-width: 900px) {
+  .row {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

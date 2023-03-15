@@ -1,5 +1,11 @@
 # Responsive Simple Website using HTML and CSS
 
+![simple website](https://user-images.githubusercontent.com/106675349/225402878-ded88f7d-ee24-48a4-9194-8d5d4a8478b6.png)
+
+![responsive simple website](https://user-images.githubusercontent.com/106675349/225402910-9a60098a-e524-4e2c-8b1b-1ea173f11913.png)
+
+
+
 
 <div id="contact">
  

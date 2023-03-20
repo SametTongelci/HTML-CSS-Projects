@@ -1,6 +1,9 @@
-* {
-  box-sizing: border-box;
-  padding: 0 5px;
+body {
+  padding: 5px;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 /* Navbar-header CSS codes */
@@ -20,7 +23,7 @@
   font-weight: 600;
 }
 
-/* Banner CSS codes */ 
+/* Banner CSS codes */
 
 .banner {
   background-image: url(images/banner.jpg);
@@ -44,10 +47,10 @@
 }
 
 .card {
-  width: 290px;
+  width: 250px;
   border: 1px solid black;
   border-radius: 30px;
-  margin-right: 33px;
+  margin-right: 30px;
   height: 450px;
 }
 
@@ -64,45 +67,83 @@
   padding: 5px 20px;
 }
 
-/* Form CSS codes */ 
-
+/* Form CSS codes */
 .formDiv {
-    background-color: lightgray;
-    margin: 30px 290px;
-    padding: 20px;
+  background-color: lightgray;
+  margin: 30px 290px;
+  padding: 20px;
 }
 
-input[type='text'], select {
-    width: 100%;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 8px 0;
-    border: 1px solid red;
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 8px 0;
+  border: 1px solid red;
 }
 
-input[type='submit'] {
-    width: 100%;
-    background-color: rgb(102, 207, 102);
-    color: white;
-    border: none;
-    padding: 15px 0;
-    margin-top: 20px;
-    font-weight: 900;
+input[type="submit"] {
+  width: 100%;
+  background-color: rgb(102, 207, 102);
+  color: white;
+  border: none;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-weight: 900;
 }
 
 /* Form area focus and hover css codes */
-input[type='text']:focus, select:focus {
-    background-color: aquamarine;
-    height: 55px;
+input[type="text"]:focus,
+select:focus {
+  background-color: aquamarine;
+  height: 55px;
 }
 
-input[type='text']:hover, select:hover {
-    background-color: chartreuse;
+input[type="text"]:hover,
+select:hover {
+  background-color: chartreuse;
 }
 
 /* Footer css codes */
 .footer {
-    padding: 5px 0;
-    background-color: chocolate;
-    text-align: center;
+  padding: 5px 0;
+  background-color: chocolate;
+  text-align: center;
+}
+
+/* icon should be only visible on mobile screens */
+.mobileIcon {
+  display: none;
+}
+
+/* Responsive css codes for mobile screens */
+@media screen and (max-width: 600px) {
+  .headerImg {
+    display: none;
+    /* It should be invisible on mobile screens */
+  }
+
+  .mobileIcon {
+    display: block;
+    /* mobile icon should appear instead of header image */
+  }
+
+  .mobileLinkDisplay {
+    display: none;
+  }
+
+  .mainCard {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .formDiv {
+    width: 100%;
+    margin: 0;
+  }
 }

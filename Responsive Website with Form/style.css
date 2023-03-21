@@ -2,8 +2,8 @@ body {
   padding: 5px;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 /* Navbar-header CSS codes */
@@ -140,10 +140,22 @@ select:hover {
   .card {
     width: 100%;
     margin-bottom: 30px;
+    height: auto;
   }
 
   .formDiv {
     width: 100%;
     margin: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
   }
 }

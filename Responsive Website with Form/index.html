@@ -11,14 +11,14 @@
 
 <body>
 
-    <div class="header">
+    <div class="header" id="headerDiv">
         <div class="mobileIcon" onclick="toggle()">
             <img src="images/icon.jpg" alt="" width="50px" height="50px">
         </div>
         <div>
             <img src="images/1.jpg" alt="" width="40px" class="headerImg">
         </div>
-        <div class="mobileLinkDisplay">
+        <div class="mobileLinkDisplay" id="navDiv">
             <div class="navbar">
                 <a href="#" class="headerLink">Home</a>
                 <a href="#" class="headerLink">About</a>
@@ -86,6 +86,20 @@
     <div class="footer">
         <h2>Frontend && Tüm Hakları Saklıdır</h2>
     </div>
+
+    <script>
+        function toggle() {
+            let x = document.getElementById('navDiv');
+            let y = document.getElementById('headerDiv');
+
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+                y.style.height = 'auto';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
 </body>
 
 </html>

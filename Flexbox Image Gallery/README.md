@@ -1,10 +1,12 @@
 # Responsive Image Gallery With Flexbox
 
+You can see the [live version of the project](https://responsive-flexbox-image-gallery.netlify.app)
 
-* I used **container**, **row** and **flex** structure in this project.
-* I created a separate responsive view for ***600px*** and ***900px***.
+- I used **container**, **row** and **flex** structure in this project.
+- I created a separate responsive view for **_600px_** and **_900px_**.
 
 ---
+
 <div id="contact">
  
 ## Connect with me:
